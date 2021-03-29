@@ -1,6 +1,5 @@
 /////////////// Dependencies /////////////
 require('dotenv').config();
-const { request, response } = require('express');
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
